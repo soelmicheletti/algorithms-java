@@ -1,6 +1,6 @@
 import java.util.Random; 
 
-class a{
+class HeapSort{
 
     public static int[] restoreHeap(int[] a, int i, int m) {
 		while(2 * i <= m) {
