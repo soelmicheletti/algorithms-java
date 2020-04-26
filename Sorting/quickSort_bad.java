@@ -1,3 +1,4 @@
+// AUTHOR: Soel Micheletti
 import java.util.Random; 
 // This implementation of QuickSort works only on arrays where elements are pairwise different
 class QuickSort{
