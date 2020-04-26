@@ -1,5 +1,6 @@
 // AUTHOR: Soel Micheletti
 
+// Requires array to be sorted
 public static int binarySearch(int[] a, int value) {
     int left = 0; 
     int right = a.length; 
