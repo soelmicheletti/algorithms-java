@@ -22,7 +22,7 @@ class List{
 	}
 	
 	public void add(int dest, int weight) {
-		Node n = new Oggetto(dest, weight); 
+		Node n = new Node(dest, weight); 
 		if(isEmpty()) {
 			first = last = n; 
 			size = 1; 
