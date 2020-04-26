@@ -129,7 +129,7 @@ public class Dijkstra{
 		
 		while(Q.size != 0) {
 			int w = Q.extractMin(); 
-			Oggetto n = g.L[w].first; 
+			Edge n = g.L[w].first; 
 			
 			while(n != null) {
 				if(p[n.dest] == -1) {
