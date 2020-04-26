@@ -1,6 +1,8 @@
+// AUTHOR: Soel Micheletti
+
 import java.util.PriorityQueue;
 
- class Node implements Comparable<Node>{
+class Node implements Comparable<Node>{
 	int value; 
 	int p; 
 	
