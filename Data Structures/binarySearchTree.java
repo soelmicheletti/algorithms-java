@@ -1,3 +1,6 @@
+// AUTHOR: Soel Micheletti
+
+// Class for each node of the binary search tree
 class Node {
 	Node left;
 	Node right;
@@ -9,6 +12,7 @@ class Node {
 	}
 }
 
+// Binary tree with methods to add, search and delete nodes. Moreover the utility method print is useful to see the current tree
 class BinaryTree {
 	Node root;
 
