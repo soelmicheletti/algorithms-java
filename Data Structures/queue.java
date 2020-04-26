@@ -1,3 +1,6 @@
+// AUTHOR: Soel Micheletti
+
+// Each element of the queue is represented as a Node object
 class Node{
 	Node next; 
 	Node prev; 
@@ -7,6 +10,8 @@ class Node{
 		value = v; 
 	}
 }
+
+// Class to manage all Node objects
 public class Queue {
 	Node first; 
 	Node last; 
