@@ -1,26 +1,28 @@
-class Oggetto{
+// AUTHOR: Soel Micheletti
+
+class Node{
 	int dest; 
-	int peso; 
-	Oggetto next; 
+	int weight; 
+	Node next; 
 	
-	public Oggetto(int a, int b) {
+	public Node(int a, int b) {
 		dest = a; 
-		peso = b; 
+		weight = b; 
 	}
 }
 
-class Lista{
+class List{
 	int size; 
-	Oggetto first; 
-	Oggetto last;
+	Node first; 
+	Node last;
 	
-	public Lista() {
-		first = last = new Oggetto(33, 33); 
+	public List() {
+		first = last = new Node(33, 33); 
 		size = 1; 
 	}
 	
-	public void add(int dest, int peso) {
-		Oggetto o = new Oggetto(dest, peso);
+	public void add(int dest, int weight) {
+		Node o = new Node(dest, weight);
 		if(size == 0) {
 			first = last = o;
 			size++; 
@@ -36,13 +38,13 @@ class Lista{
 
 class Graph{
 	int V; 
-	Lista[] T;  
+	List[] T;  
 	
 	public Graph(int v) {
 		V = v; 
-		T = new Lista[V]; 
+		T = new List[V]; 
 		for(int i = 0; i<V; i++) {
-			T[i] = new Lista(); 
+			T[i] = new List(); 
 		}
 	}
 	
@@ -51,4 +53,3 @@ class Graph{
 		T[dest].add(src, p);
 	}
 }
-
