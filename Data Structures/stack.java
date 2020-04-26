@@ -1,3 +1,6 @@
+// AUTHOR: Soel Micheletti
+
+// Each element in the stack is a Node object
 class Node {
 	Node next;
 	Node prev;
@@ -8,6 +11,7 @@ class Node {
 	}
 }
 
+// Class to manage the Node objects to implement a Stack
 class Stack {
 	Node first;
 	Node last;
