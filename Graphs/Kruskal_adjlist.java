@@ -1,4 +1,6 @@
 // AUTHOR: Soel Micheletti
+
+// Code taken from an AW exercise
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -62,7 +64,7 @@ class UnionFind{
 }
 
 
-class Array {
+class Kruskal {
 	
 	public static void kruskal(Graph G, int V) {
 		Edge[] e = G.e; 
