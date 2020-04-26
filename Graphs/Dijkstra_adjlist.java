@@ -47,7 +47,7 @@ class Graph {
 	}
 }
 
-public class Ciao {
+public class Dijkstra {
 	public static void dijkstra(Graph g, int s) {
 		int[] d = new int[g.V];
 		int[] p = new int[g.V];
