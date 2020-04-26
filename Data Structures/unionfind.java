@@ -1,3 +1,5 @@
+// AUTHOR: Soel Micheletti
+
 class Node<T>{
 	T item; 
 	Node parent;
@@ -40,7 +42,6 @@ public class UnionFind<T> {
 		Node g = new Node("g");
 		Node k = new Node("k");
 		
-		
 		U.makeSet(a);
 		U.makeSet(b);
 		U.makeSet(c);
@@ -50,7 +51,6 @@ public class UnionFind<T> {
 		U.makeSet(g);
 		U.makeSet(k);
 		
-	
 		b.parent = a;  
 		c.parent = a;
 		g.parent = b; 
@@ -58,32 +58,15 @@ public class UnionFind<T> {
 		d.parent = b; 
 		e.parent = d; 
 		f.parent = d; 
-		
 		U.find(e); 
+		
 		System.out.println(a.parent.item); 
 		System.out.println(e.parent.item); 
-		
 		System .out.println(d.parent.item); 
-
-		
 		System.out.println(f.parent.item); 
-
-		
 		System.out.println(b.parent.item); 
-
-		
 		System.out.println(g.parent.item); 
-
-		
 		System.out.println(k.parent.item); 
-
-		
 		System.out.println(c.parent.item); 
-
-
-
-
 	}
 }
-
-
