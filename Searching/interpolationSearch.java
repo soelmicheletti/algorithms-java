@@ -1,6 +1,7 @@
 // AUTHOR: Soel Micheletti
 
 // Binary Search + heuristic to improve the performance
+// Requires array to be sorted
 public static int interpolationSearch(int[] a, int b) {
 		int left = 0; 
 		int right = a.length-1; 
