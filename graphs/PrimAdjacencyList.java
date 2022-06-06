@@ -52,9 +52,7 @@ class Node implements Comparable<Node>{
 	}
 }
 
-
 class Prim {
-	
 	
 	public static void prim(Graph g) {
 		int[] d = new int[g.V]; 
@@ -116,6 +114,6 @@ class Prim {
     	}
     	
     	prim(g); 
-        
+       
     }
 }
