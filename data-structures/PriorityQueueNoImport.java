@@ -1,4 +1,5 @@
 // AUTHOR: Soel Micheletti
+
 class PriorityQueue{
 	int size; 
 	Nodo[] a = new Nodo[10000]; 
