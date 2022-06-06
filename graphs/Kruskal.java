@@ -1,3 +1,5 @@
+// AUTHOR: Soel Micheletti
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -60,7 +62,7 @@ class UnionFind{
 	}
 }
 
-class Main{
+class Kruskal{
 	public static void main(String[]args) {
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt(); 
