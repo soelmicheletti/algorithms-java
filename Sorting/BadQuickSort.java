@@ -1,7 +1,10 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.Random; 
+
 // This implementation of QuickSort works only on arrays where elements are pairwise different
-class QuickSort{
+
+class BadQuickSort{
 
     public static int[] quickSort(int[] a){
         return quickSort(a, 0, a.length - 1); 
@@ -45,6 +48,7 @@ class QuickSort{
         }
         return true; 
     }
+
     public static void main(String[] args) {
  
         int[] a = {3, 4, 1, 5, 2, 9, 6}; 

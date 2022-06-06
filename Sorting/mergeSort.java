@@ -1,7 +1,8 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.Random; 
 
-class a{
+class MergeSort{
 
     public static int[] mergeSort(int[] a) {
 		return mergeSort(a, new int[a.length], 0, a.length - 1); 
@@ -46,6 +47,7 @@ class a{
         }
         return true; 
     }
+
     public static void main(String[] args) {
         Random ran = new Random(); 
 

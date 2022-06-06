@@ -1,7 +1,7 @@
 // AUTHOR: Soel Micheletti
 import java.util.Random; 
 
-class a{
+class QuickSort{
 
     public static int[] quickSort(int[] a){
         return quickSort(a, 0, a.length - 1); 
@@ -39,6 +39,7 @@ class a{
         }
         return true; 
     }
+    
     public static void main(String[] args) {
         Random ran = new Random(); 
 

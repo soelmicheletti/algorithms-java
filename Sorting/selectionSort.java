@@ -1,4 +1,5 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.Random; 
 
 class SelectionSort{
@@ -27,6 +28,7 @@ class SelectionSort{
         }
         return true; 
     }
+
     public static void main(String[] args) {
         Random ran = new Random(); 
 

@@ -1,36 +1,42 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.Random; 
 
 class BubbleSort{
 
-    public static int[] bubbleSort(int[] a) {
-		for (int i = 0; i < a.length - 1; i++) {
-			for (int j = 0; j < a.length - 1; j++) {
-				if (a[j] > a[j + 1]) {
-					int tmp = a[j];
-					a[j] = a[j + 1];
-					a[j + 1] = tmp;
+    public static int[] bubbleSort(int[] array) {
+		for (int i = 0; i < array.length - 1; i++) {
+			for (int j = 0; j < array.length - 1; j++) {
+				if (array[j] > array[j + 1]) {
+					int tmp = array[j];
+					array[j] = array[j + 1];
+					array[j + 1] = tmp;
 				}
 			}
 		}
-		return a;
+		return array;
 	}
     
-    public static boolean isSorted(int[] a){
-        for(int i = 0; i < a.length - 1; i++){
-            if(a[i] > a[i + 1])
+    public static boolean isSorted(int[] array){
+        for(int i = 0; i < array.length - 1; i++){
+            if(array[i] > array[i + 1])
                 return false; 
         }
         return true; 
     }
+
     public static void main(String[] args) {
+        
         Random ran = new Random(); 
 
-        int[] a = new int[10000]; 
-        for(int i = 0; i < a.length; i++){
-            a[i] = ran.nextInt(10000); 
+        int[] array = new int[10000]; 
+
+        for(int i = 0; i < array.length; i++){
+            array[i] = ran.nextInt(10000); 
         }
-        bubbleSort(a); 
-        System.out.println(isSorted(a));
+
+        bubbleSort(array); 
+
+        System.out.println(isSorted(array));
     }
 }
