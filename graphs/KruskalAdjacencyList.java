@@ -111,7 +111,6 @@ class Kruskal {
     		g.edge(i, sc.nextInt(), sc.nextInt(), sc.nextInt());
     	}
     	
-    	kruskal(g, V); 
-        
+    	kruskal(g, V);        
     }
 }
