@@ -1,5 +1,6 @@
 // AUTHOR: Soel Micheletti
 // Code used for a submission in an AW programming exercise
+
 import java.util.Scanner;
 
 
