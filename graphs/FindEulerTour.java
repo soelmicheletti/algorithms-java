@@ -1,4 +1,5 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.ArrayList;
 
 
@@ -112,6 +113,4 @@ public class Euler{
 
         EulerTour(G, 0); 
     }
-
-
 }
