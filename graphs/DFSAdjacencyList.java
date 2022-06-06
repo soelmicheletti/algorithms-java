@@ -1,4 +1,5 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.ArrayList;
 import java.util.Stack;
 
@@ -27,7 +28,6 @@ class Graph {
 		Node n = new Node(dest, weight);
 		L.get(src).add(n);
 	}
-
 }
 
 class DFS {
