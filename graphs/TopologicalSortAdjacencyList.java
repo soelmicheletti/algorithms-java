@@ -1,4 +1,5 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.ArrayList;
 import java.util.Stack;
 
@@ -28,7 +29,7 @@ class Graph {
 	}
 }
 
-public class Topo {
+public class TopologicalSort {
 	public static void print(int[] a) {
 		for (int i = 0; i < a.length; i++)
 			System.out.print(a[i] + "\t");
