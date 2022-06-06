@@ -2,6 +2,8 @@
 
 Java Implementations of algorithms and data structures learned in my first year at ETH Zurich. The primary goal was learning how the different algorithms work, hence I decided to (partially) avoid importing external libraries. 
 
+![Alt text](/wallpaper.jpg?raw=true "Title")
+
 
 ## Graph Theory
 
