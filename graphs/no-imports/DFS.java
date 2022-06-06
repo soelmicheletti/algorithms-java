@@ -1,4 +1,5 @@
 // AUTHOR: Soel Micheletti
+
 class Node {
 	Node next;
 	Node prev;
