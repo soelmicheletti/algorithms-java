@@ -1,4 +1,5 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.Random; 
 
 class InsertionSort{
@@ -23,6 +24,7 @@ class InsertionSort{
         }
         return true; 
     }
+
     public static void main(String[] args) {
         Random ran = new Random(); 
 

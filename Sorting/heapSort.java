@@ -1,4 +1,5 @@
 // AUTHOR: Soel Micheletti
+
 import java.util.Random; 
 
 class HeapSort{
@@ -39,6 +40,7 @@ class HeapSort{
         }
         return true; 
     }
+    
     public static void main(String[] args) {
         Random ran = new Random(); 
 
