@@ -10,21 +10,22 @@ class HeapSort{
             if(j + 1 <= m && a[j + 1] > a[j])
                 j++; 
             if(a[j] > a[i]) {
-				int tmp = a[i]; 
-				a[i] = a[j]; 
-				a[j] = tmp; 
-				i = j; 
-			} else {
-				break; 
-			}
-		}
-		return a; 
-	}
+                int tmp = a[i]; 
+                a[i] = a[j]; 
+                a[j] = tmp; 
+                i = j; 
+            } else {
+                break; 
+            }
+        }
+        return a; 
+    }
     
     public static int[] heapSort(int[] a){
-        for(int i = a.length / 2; i>= 0; i--)
-			restoreHeap(a, i, a.length - 1);
-		for(int i = a.length - 1; i >= 1; i--) {
+        for(int i = a.length / 2; i>= 0; i--) {
+            restoreHeap(a, i, a.length - 1);
+        }
+        for(int i = a.length - 1; i >= 1; i--) {
             int tmp = a[0]; 
             a[0] = a[i]; 
             a[i] = tmp; 
