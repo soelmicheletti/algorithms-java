@@ -19,7 +19,7 @@ Algorithm  | Goal | Runtime
 [Floyd Warshall](/graphs/FloydWarshallAdjacencyList.java)  | All-to-all shortest path. | **O(n^3)** 
 [Kruskal](/graphs/KruskalAdjacencyList.java)  | MST by applying the blue rule. | **O(m log m)** 
 [Prim](/graphs/PrimAdjacencyList.java)  | MST by applying the blue/ red rule. | **O(m log n)**
-[Topological Sorting](/graphs/TopologicalSortingAdjacencyList.java)  | Determine if the graph has a topological order | **O(n + m)**
+[Topological Sorting](/graphs/TopologicalSortAdjacencyList.java)  | Determine if the graph has a topological order | **O(n + m)**
 
 ## Searching
 
